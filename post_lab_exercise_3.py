@@ -2,7 +2,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
 
-img = Image.open(r'D:\MU.jpg')
+img = Image.open(r'C:\Users\Man Bhalodiya\Desktop\t-1648985762-marwadi-university-mu-rajkot-rajkot.jpeg')
 data = np.array(img)
 
 red = data[:, :, 0]
@@ -30,5 +30,6 @@ plt.subplot(1, 4, 4)
 plt.imshow(blue, cmap='Blues')
 plt.title("Blue")
 plt.axis("off")
+
 
 plt.show()
